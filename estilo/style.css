@@ -332,7 +332,7 @@ h1 {
   
 }
 
-.vertodos:hover {
+.principal:hover {
    background-color: var(--cor3)
 }
 
@@ -499,4 +499,8 @@ h1 {
 
 .info-detalhe {
    padding-left: 10px;
+}
+
+.saibamais {
+   text-align: center;
 }
