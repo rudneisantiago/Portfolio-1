@@ -184,7 +184,7 @@ h1 {
    display: flex;
    justify-content: space-between;
    align-items:flex-start;
-  background-color: #000000;
+  background-color: #1a1a1a;;
   padding: 40px; 
 }
 
@@ -263,12 +263,14 @@ h1 {
    
       text-align: center;
       padding: 40px;
+      background-color: #1a1a1a;
   
 }
 
 .projetos h2 {
    font-size: 38px;
    margin-bottom: 48px;
+   color: #fff;
 }
 
 .projetos-container {
@@ -280,7 +282,7 @@ h1 {
 }
 
 .projeto-card {
-   background-color: #fff;
+   background-color: #1a1a1a;
     border-radius: 20px;
     border: 2px solid transparent;
     padding: 20px;
@@ -307,11 +309,13 @@ h1 {
    font-size: 24px;
    padding-top: 24px;
    font-weight: 500;
+   color: #fff;
 }
 
 .projeto-card p {
    font-size: 16px;
    padding-top: 8px;
+   color: #fff;
 
 }
 
@@ -443,6 +447,7 @@ h1 {
    background-color: #1a1a1a;
   color: #fff;
   padding: 50px;
+  text-align: left;
 }
 
 .experiencia h2 {
@@ -451,9 +456,38 @@ h1 {
 }
 
 .card-experiencia {
+   display: flex;
+   justify-content: space-between;
    background-color: #2e2e2e69;
   border: 1px solid var(--cor1);
   border-radius: 10px;
   padding: 20px;
   margin-bottom: 20px;
+}
+
+.info-job {
+   flex: 1;
+    max-width: 200px;
+    font-size: 14px;
+    color: #ffffff;
+   
+}
+
+.detalhes {
+   flex: 3;
+   margin-left: 20px;
+}
+
+.detalhes h3 {
+   font-size: 24px;
+   padding-left: 10px;
+}
+
+.bi {
+   color: var(--cor1);
+   font-size: 19px;
+}
+
+.info-detalhe {
+   padding-left: 10px;
 }
