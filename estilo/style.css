@@ -368,6 +368,12 @@ h1 {
    color: var(--cor3);
 }
 
+.btn-vertodos {
+   display: flex;
+   justify-content: center;
+   padding-top: 48px;
+}
+
 /* Estilo da seção "Sobre mim" */
 
 .sobre {
@@ -494,6 +500,8 @@ h1 {
     background-color: #1a1a1a;
     border-radius: 10px;
     color: #fff;
+    margin-top: 64px;
+    margin-bottom: 64px;
    
    
 }
@@ -597,4 +605,12 @@ color: white;
        opacity: 0.2;  
        transform: scale(1.2); 
    }
+}
+
+footer {
+   background-color: #1a1a1a;
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    padding: 5px;
 }
