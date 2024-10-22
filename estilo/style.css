@@ -584,6 +584,7 @@ color: white;
 
 .hero-right {
    text-align: center;
+   padding-right: 30px;
 }
 
 .hero-right p {
@@ -594,18 +595,29 @@ color: white;
 .availability-button {
    display: inline-flex;
    align-items: center;
-   border: 2px solid #39ff14;
+   border: 1px solid #39ff14;
    padding: 12px 27px;
    border-radius: 37px;
    color: #ffffff;
    font-size: 27px;
-   transition: background-color 0.3s, color 0.3s;
 }
 
 .availability-circle {
-   width: 48px;
-   height: 48px;
+   width: 32px;
+   height: 32px;
    background-color: #39ff14;
    border-radius: 50%;
    margin-right: 22px;
+   animation: blink 1s infinite;
+}
+
+@keyframes blink {
+   0%, 100% {
+       opacity: 1;
+       transform: scale(1);  
+   }
+   50% {
+       opacity: 0.2;  
+       transform: scale(1.2); 
+   }
 }
