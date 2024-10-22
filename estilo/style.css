@@ -504,3 +504,108 @@ h1 {
 .saibamais {
    text-align: center;
 }
+
+/* Estilo da seção "CTA" */
+
+.cta{
+   width: 1105px;
+   height: 417px;
+   display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    background-color: #1a1a1a;
+    border-radius: 10px;
+    color: #fff;
+   
+   
+}
+
+.hero-left {
+   max-width: 60%;
+}
+
+.profile-info {
+   display: flex;
+   align-items: center;
+   margin-bottom: 20px;
+}
+
+.profile-pic {
+   padding-right: 10px;
+}
+
+.profile-info p {
+   font-size: 16px;
+
+}
+
+
+.profile-info span {
+   font-size: 14px;
+}
+
+h2 {
+   font-size: 48px;
+   padding-top: 57px;
+}
+
+h2 .highlight1 {
+   color: var(--cor3);
+}
+
+h2 .highlight2 {
+   color: var(--cor2);
+}
+
+.cv-button {
+   display: inline-flex;
+   align-items: center;
+   background-color: var(--cor3);
+   color: #fff;
+   padding: 10px 48px;
+   border-radius: 30px;
+   border: none;
+   cursor: pointer;
+   font-size: 18px;
+   margin-top: 40px;
+   transition: background-color 0.3s;
+}
+
+
+.bi-download {
+padding-left: 10px;
+color: white;
+} 
+
+.cv-button:hover {
+   background-color: var(--cor1);
+}
+
+.hero-right {
+   text-align: center;
+}
+
+.hero-right p {
+   font-size: 16px;
+   padding-bottom: 20px;
+}
+
+.availability-button {
+   display: inline-flex;
+   align-items: center;
+   border: 2px solid #39ff14;
+   padding: 12px 27px;
+   border-radius: 37px;
+   color: #ffffff;
+   font-size: 27px;
+   transition: background-color 0.3s, color 0.3s;
+}
+
+.availability-circle {
+   width: 48px;
+   height: 48px;
+   background-color: #39ff14;
+   border-radius: 50%;
+   margin-right: 22px;
+}
