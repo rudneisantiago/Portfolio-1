@@ -259,91 +259,64 @@ h1 {
 
 /* Estilo da seção de projetos */
 
-.projetos {
-   
-      text-align: center;
-      padding: 40px;
-      background-color: #1a1a1a;
-  
+.projetos-recentes {
+   background-color: #1a1a1a;
+   text-align: center;
+   padding: 50px 0;
+   color: #ffffff;
 }
 
-.projetos h2 {
+.projetos-recentes h2 {
    font-size: 38px;
-   margin-bottom: 48px;
-   color: #fff;
+   padding-bottom: 39px;
 }
+
 
 .projetos-container {
-      display: flex;
-      justify-content: space-around;
-      flex-wrap: wrap;
-      gap: 24px;
-  
+   display: flex;
+   justify-content: center;
+   gap: 34px;
+   color: #ffffff;
 }
 
 .projeto-card {
-   background-color: #1a1a1a;
-    border-radius: 20px;
-    border: 2px solid transparent;
-    padding: 20px;
-    width: 377px;
-    height: 470px;
-    transition: border-color 0.3s;
-    text-align: left;
-    position: relative;
+   background-color: #222;
+   border-radius: 15px;
+   overflow: hidden;
+   width: 377px;
+   text-align: left;
+   position: relative;
 }
-
-.projeto-card:nth-child(1) {
-   border-color: var(--cor1);
-}
-
-.projeto-card:nth-child(2) {
-   border-color: var(--cor2);
-}
-
-.projeto-card:nth-child(3) {
-   border-color: var(--cor3);
-}
-
-.projeto-card h3 {
-   font-size: 24px;
-   padding-top: 24px;
-   font-weight: 500;
-   color: #fff;
-}
-
-.projeto-card p {
-   font-size: 16px;
-   padding-top: 8px;
-   color: #fff;
-
-}
-
-.principal {
-      margin-top: 48px;
-      padding: 11px 56px;
-      background-color: var(--cor1);
-      color: #fff;
-      border: none;
-      border-radius: 32px;
-      font-size: 18px;
-      cursor: pointer;
-      transition: background-color 0.3s;
-  
-}
-
-.principal:hover {
-   background-color: var(--cor3)
-}
-
-/* .projeto-card:hover {
-   box-shadow: 0 8px 15px rgba(0, 0, 0, 0.068);
-   transform: scale(1.05);
-} */
 
 .projeto-card img {
    width: 100%;
-   border-radius: 20px; 
+   
+}
+
+.projeto-info {
+   padding: 20px;
+}
+
+.projeto-info h3 {
+   font-size: 24px;
+}
+
+.projeto-info p {
+   margin: 10px 0;
+   font-size: 16px;
+   color: white;
+}
+
+.medprev {
+    background-color: var(--cor1);
+}
+
+.econodata {
+   background-color: var(--cor2);
+}
+
+.alfakids {
+   background-color: var(--cor3);
 }
 
 
@@ -363,36 +336,36 @@ h1 {
     right: 20px;
     bottom: 20px;
 }
+ 
 
 .roxo {
-   border-color: var(--cor1);
-   color: var(--cor1);
+   border-color: white;
+   color: white;
 }
 
 .laranja {
-   border-color: var(--cor2);
-   color: var(--cor2);
+   border-color: white;
+   color: white;
 }
 
 .rosa {
-   border-color: var(--cor3);
-   color: var(--cor3);
+   border-color: white;
+   color: white;
 }
 
 .roxo:hover {
-   background-color: var(--cor1);
-   color: white;
-
+   background-color: white;
+   color: var(--cor1);
 }
 
 .laranja:hover {
-   background-color: var(--cor2);
-   color: white;
+   background-color: white;
+   color: var(--cor2);
 }
 
 .rosa:hover {
-   background-color: var(--cor3);
-   color: white;
+   background-color: white;
+   color: var(--cor3);
 }
 
 
@@ -492,7 +465,12 @@ h1 {
 
 
 }
-.bi {
+.bi-briefcase-fill {
+   color: var(--cor1);
+   font-size: 19px;
+}
+
+.bi-calendar-fill {
    color: var(--cor1);
    font-size: 19px;
 }
