@@ -24,90 +24,120 @@
 
 
 
- .navbar {
+/* Estilo Seção de Navbar */
+
+.navbar {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  padding: 10px 20px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.content-esquerda {
    display: flex;
-   align-items: center;
-   justify-content: space-between;
-   padding: 10px 20px;
-   background-color: #fff;
-   border-bottom: 1px solid #e0e0e0;
    max-width: 1400px;
+   height: 100%;
    height: 100%;
    margin: 0 auto;
    position: relative;
- }
+}
 
- .profile-info {
+.logo-foto {
+  display: flex;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.info-logo {
    display: flex;
-   align-items: center;
+   flex-direction: column;
+   align-items: flex-start;
+   padding-left: 10px;
+}
 
-
- }
-
- .info {
-   display: flex;
- }
-
- .nome {
-
+.nome {
    font-size: 16px;
-   font-family: "Manrope", sans-serif;
    font-weight: 600;
+   
+}
+
+.funcao {
+   font-size: 14px;
+}
+
+.status {
+   display: inline-flex;
    align-items: center;
-   display: block;
-
- }
-
-.funcao{
-font-size: 14px;
-font-family:"Manrope", sans-serif;
-display: block;
+   margin-left: 34px;
+   border: 1px solid #39ff14;
+   padding: 7px 10px;
+   border-radius: 37px;
+   color: black;
+   font-size: 12px;
 
 }
 
- .status {
-    display: flex;
-    align-items: center;
-    background-color: #ffffff;
-    border: 1px solid #00cc00;
-    border-radius: 30px;
-    padding: 6px 19px;
-    font-size: 12px;
-    color: #000000;
-    margin-left: 20px;
-    font-family: "Manrope", sans-serif;
-
+.status-circle {
+   width: 9px;
+   height: 9px;
+   background-color: #39ff14;
+   border-radius: 50%;
+   margin-right: 10px;
 }
 
- nav {
-    list-style: none;
-    display: flex;
-    gap: 30px;
-    align-items: center;
-    
-    
+.content-direita {
+   display: flex;
+   max-width: 1400px;
+   height: 100%;
+   height: 100%;
+   margin: 0 auto;
+   position: relative;
+   justify-content: flex-end;
+   align-items: center;
+}
+
+.nav-links {
+   display: flex;
+   list-style: none;
+   display: flex;
+   gap: 32px;
  }
 
- nav > a {
-    color: rgb(0, 0, 0);
-    text-decoration: none;
-    font-family: "Manrope", sans-serif;
-    font-size: 18px;
-    font-weight: 600;
-    
+ .nav-links li a {
+   text-decoration: none;
+   font-size: 18px;
+   color: black;
+   font-weight: 600;
+   transition: color 0.3s;
  }
 
-
-
- .botao1 {
-    background-color: var(--cor1);
+ .nav-links li a:hover {
+   color: var(--cor2);
+ }
+ 
+ .btn {
+   background-color: var(--cor1);
     color: #fff;
-    padding: 11px 24px;
     border: none;
-    border-radius: 30px;
+    text-decoration: none;
+    border-radius: 32px;
+    padding: 11px 24px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-weight: 500;
+    margin-left: 32px;
 
  }
-                
+
+ .btn:hover {
+   background-color: var(--cor3)
+}
+
 
 
  /* Estilo Seção de Introdução */
