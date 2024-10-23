@@ -161,7 +161,7 @@ h1 {
    color: #000;
    margin-bottom: 20px;
    font-family: var(--fonte-padrao);
-   font-weight: 800;
+   font-weight: 900;
 }
 
 .highlight {
@@ -191,7 +191,8 @@ h1 {
     justify-content: center;
     gap: 24px;
     flex-wrap: wrap;
-    margin-top: 30px;
+    margin-top: 32px;
+    margin-bottom: 61px;
 }
 
 .ferramentas img {
@@ -211,25 +212,41 @@ h1 {
 /* Estilo da seção habilidades*/
 
 .habilidades {
+  background-color: #1a1a1a;
+  height: 584px;
+}
+
+.habilidade-content {
    display: flex;
+   max-width: 1400px;
+   height: 100%;
+   margin: 0 auto;
    justify-content: space-between;
-   align-items:flex-start;
-  background-color: #1a1a1a;;
-  padding: 40px; 
+   align-items: center;
+
+}
+
+.habilidade-conteudo {
+   display: flex;
+   flex-direction: column;
 }
 
 
-.text-content h2 {
+.text h2 {
    font-size: 38px;
    padding-bottom: 32px;
    color: #fff;
    
 }
 
-.text-content p {
+.text p {
    font-size: 16px;
    padding-bottom: 44px;
    color: white;
+}
+
+.image-container {
+   display: flex;
 }
 
 .habilidades01 {
@@ -295,17 +312,28 @@ h1 {
    color: #ffffff;
 }
 
-.projetos-recentes > h2 {
+.text-projeto > h2 {
+   font-size: 38px;
+   padding-bottom: 39px;
+   max-width: 1400px;
+   height: 100%;
+   margin: 0 auto;
+
+}
+
+/* .projetos-recentes > h2 {
    font-size: 38px;
    padding-bottom: 39px;
    padding-left: 60px;
-}
+} */
 
 
 .projetos-container {
    display: flex;
-   justify-content: center;
-   gap: 34px;
+   max-width: 1400px;
+   height: 100%;
+   margin: 0 auto;
+   justify-content: space-between;
    color: #ffffff;
 }
 
@@ -561,7 +589,7 @@ h1 {
    font-size: 14px;
 }
 
-h2 {
+.cta h2 {
    font-size: 48px;
    padding-top: 57px;
 }
