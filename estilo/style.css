@@ -321,13 +321,6 @@ h1 {
 
 }
 
-/* .projetos-recentes > h2 {
-   font-size: 38px;
-   padding-bottom: 39px;
-   padding-left: 60px;
-} */
-
-
 .projetos-container {
    display: flex;
    max-width: 1400px;
@@ -435,16 +428,18 @@ h1 {
 /* Estilo da seção "Sobre mim" */
 
 .sobre {
-   display: flex;
-    align-items: center;
-    justify-content: space-between;
     padding: 40px;
     background-color: #1a1a1a;
     color: #fff;
 }
 
 .sobre-content {
-   max-width: 600px;
+   display: flex;
+   max-width: 1400px;
+   height: 100%;
+   margin: 0 auto;
+   justify-content: space-between;
+   align-items: center;
 }
 
 .sobre-content h2 {
