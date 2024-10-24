@@ -428,7 +428,6 @@ h1 {
 /* Estilo da seção "Sobre mim" */
 
 .sobre {
-    padding: 40px;
     background-color: #1a1a1a;
     color: #fff;
 }
@@ -479,6 +478,12 @@ h1 {
   color: #fff;
   padding: 50px;
   text-align: left;
+}
+
+.experiencia-content {
+   max-width: 1400px;
+   height: 100%;
+   margin: 0 auto;
 }
 
 .experiencia h2 {
@@ -545,6 +550,9 @@ h1 {
 /* Estilo da seção "CTA" */
 
 .cta{
+   max-width: 1400px;
+   height: 100%;
+   margin: 0 auto;
    width: 1105px;
    height: 417px;
    display: flex;
