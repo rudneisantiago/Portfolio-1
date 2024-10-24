@@ -555,6 +555,11 @@ h1 {
    text-align: center;
 }
 
+.botaoprincipal > a {
+   text-decoration: none;
+   color: #ffffff;
+}
+
 /* Estilo da seção "CTA" */
 
 .cta{
@@ -627,6 +632,10 @@ h2 .highlight2 {
    transition: background-color 0.3s;
 }
 
+.cv-button > a {
+   text-decoration: none;
+   color: #ffffff;
+}
 
 .bi-download {
 padding-left: 10px;
