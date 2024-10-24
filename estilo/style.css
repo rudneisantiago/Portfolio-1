@@ -22,10 +22,18 @@
    
 }
 
-
+body {
+   padding-top: 70px;
+}
 
 /* Estilo Seção de Navbar */
 
+header {
+   position: fixed;
+   width: 100%;
+   top: 0;
+   z-index: 100;
+}
 .navbar {
   display: flex;
   align-items: center;
