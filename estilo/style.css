@@ -491,6 +491,10 @@ h1 {
 
 /* Estilo da seção "experiencia" */
 
+#experiencia {
+   scroll-margin-top: 50px;
+}
+
 .experiencia {
   background-color: #1a1a1a;
   color: #fff;
