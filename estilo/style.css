@@ -314,6 +314,7 @@ h1 {
 
 /* Estilo da seção de projetos */
 
+
 .projetos-recentes {
    background-color: #1a1a1a;
    padding: 50px 0;
@@ -441,6 +442,7 @@ h1 {
 }
 
 .sobre-content {
+   padding-top: 32px;
    display: flex;
    max-width: 1400px;
    height: 100%;
@@ -483,9 +485,9 @@ h1 {
 /* Estilo da seção "experiencia" */
 
 .experiencia {
-   background-color: #1a1a1a;
+  background-color: #1a1a1a;
   color: #fff;
-  padding: 50px;
+  padding-top:  88px;
   text-align: left;
 }
 
@@ -533,7 +535,7 @@ h1 {
 .detalhes p {
    font-size: 16px;
    padding-left: 10px;
-   padding-right: 48px;
+   padding-right: 32px;
 
 
 }
@@ -554,6 +556,7 @@ h1 {
 .saibamais {
    padding-top: 32px;
    text-align: center;
+   padding-bottom: 32px;
 }
 
 .botaoprincipal > a {
