@@ -314,6 +314,9 @@ h1 {
 
 /* Estilo da seção de projetos */
 
+#portfolio {
+      scroll-margin-top: 90px;
+}
 
 .projetos-recentes {
    background-color: #1a1a1a;
@@ -435,6 +438,10 @@ h1 {
 }
 
 /* Estilo da seção "Sobre mim" */
+
+#sobre-mim {
+   scroll-margin-top: 90px;
+}
 
 .sobre {
     background-color: #1a1a1a;
