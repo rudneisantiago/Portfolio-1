@@ -525,10 +525,13 @@ h1 {
 }
 
 .info-job {
-   flex: 1;
+    flex: 1;
+    align-content: center;
     max-width: 200px;
     font-size: 14px;
     color: #ffffff;
+    border-right: 1px solid var(--cor1); 
+    height: 109px;
    
 }
 
