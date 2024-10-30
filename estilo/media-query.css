@@ -67,3 +67,20 @@
     }
 
 }
+
+@media screen and (max-width: 1255px) {
+    .cta {
+       max-width: 85%;
+    }
+
+    .hero-right {
+        text-align: center;
+        padding-right: 0px;
+    }
+}
+
+@media screen and (max-width: 1020px) {
+    .hero-right {
+    
+    }
+}
