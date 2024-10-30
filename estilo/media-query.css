@@ -1,0 +1,69 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 1470px) {
+    .status {
+        display: none;
+    }
+
+    .habilidade-content {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    .text-projeto {
+        margin-left: 50px;
+    }
+    .projetos-container {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    .sobre-content {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    .experiencia-content {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+}
+
+@media screen and (max-width: 1320px) {
+    
+    .navbar {
+        justify-content: space-between;
+    }
+    .content-esquerda {
+        margin: 0;
+    } 
+
+    .content-direita {
+        margin: 0;
+    }
+
+    .image-container {
+        display: none;
+    }
+
+    .habilidades {
+        height: 420px;
+    }
+
+    .habilidade-content {
+        justify-content: center;
+    }
+
+    .habilidade-conteudo {
+        align-items: center;
+    }
+
+    .text > p {
+        text-align: center;
+    }
+
+    .projetos-recentes {
+        padding: 0;
+    }
+
+}
