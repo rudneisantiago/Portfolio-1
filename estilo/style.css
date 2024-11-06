@@ -39,6 +39,10 @@ header {
    display: none;
 }
 
+#btn-menu{
+   display: none;
+}
+
 .navbar {
   display: flex;
   align-items: center;
