@@ -79,14 +79,7 @@
     }
 }
 
-@media screen and (max-width: 943px) {
-    .ferramentas {
-      max-width: 70%;
-      margin: auto;
-      padding-top: 32px;
-      padding-bottom: 62px;
-    }
-
+@media screen and (max-width: 1077px) {
     .sobre-content {
         flex-direction: column-reverse;
     }
@@ -107,21 +100,131 @@
         padding-top: 48px;
         padding-bottom: 40px;
     }
+}
 
-    .hero-left {
-        display: flex;
+@media screen and (max-width: 960px){
+    .ferramentas {
+        max-width: 80%;
+        margin: auto;
+        padding-top: 32px;
+        padding-bottom: 62px;
+      }
+}
+
+@media screen and (max-width: 943px) {
+   .profile-info {
+    display: none;
+   }
+
+  .cta {
+    flex-direction: column-reverse;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .hero-left {
+    max-width: 90%;
+   }
+
+}
+
+@media screen and (max-width: 915px) {
+    h1 {
+        font-size: 44px;
+    }
+}
+
+@media screen and (max-width: 914px) {
+    .card-experiencia {
         flex-direction: column;
         align-items: flex-start;
+    }
+    
+    .info-job {
+        border-right: none;
+        padding-bottom: 20px;
         
     }
 
-    .hero-left > h2 {
-        padding: 0;
-        
+    .detalhes {
+        margin: 0;
     }
 
-    /* .cta {
-        padding: 80px;
-        max-width: 70%;
-    } */
+    .detalhes > h3 {
+        border-top : 1px solid var(--cor1);
+        padding-left: 0;
+        padding-top: 10px;
+    }
+
+    .detalhes > p {
+        padding-left: 0;
+    }
+}
+
+
+@media screen and (max-width: 892px) {
+
+    .navbar {
+        align-items: flex-start;
+        padding-top: 24px;
+    }
+
+    .nav-links {
+        display: none;
+    }
+
+    .contact-btn {
+        display: none;
+    }
+
+    .bi-list {
+        color: var(--cor1);
+        font-size: 40px;
+        cursor: pointer;
+    }
+
+    .bi-list:hover{
+        color: var(--cor2);
+    }
+
+    .burguer {
+        /* display: flex; */
+        flex-direction: column;
+        align-items: flex-end;
+        text-align: end;
+    }
+
+    .nav-buguer {
+     display: block;
+     list-style: none;
+     font-size: 24px;
+     color: black;
+     font-weight: 600;
+     transition: color 0.3s;
+    }
+
+    .nav-buguer li {
+        padding-bottom: 15px;
+    }
+
+    .nav-buguer li a {
+        text-decoration: none;
+    }
+
+    .nav-buguer li a:hover {
+        color: var(--cor2);
+
+}
+
+.bi-x-lg {
+    font-size: 30px;
+    color: var(--cor2);
+    cursor: pointer;
+    padding-bottom: 28px;
+}
+
+.bi-x-lg:hover {
+    color: var(--cor3);
+}
+
 }

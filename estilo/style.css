@@ -34,6 +34,11 @@ header {
    top: 0;
    z-index: 100;
 }
+
+.burguer {
+   display: none;
+}
+
 .navbar {
   display: flex;
   align-items: center;
@@ -467,7 +472,7 @@ h1 {
 
 .sobre-content p {
    font-size: 16px;
-   padding-right: 150px;
+   padding-right: 90px;
 }
 
 .social-links p {
@@ -555,7 +560,7 @@ h1 {
 .detalhes p {
    font-size: 16px;
    padding-left: 10px;
-   padding-right: 32px;
+   padding-right: 10px;
 
 
 }
