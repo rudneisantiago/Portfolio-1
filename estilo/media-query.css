@@ -99,6 +99,10 @@
         display: none;
     }
 
+    .imagem-pequena{
+        display: block;
+    }
+
     .perfil-imagem {
         padding-top: 48px;
         padding-bottom: 40px;

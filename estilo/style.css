@@ -490,6 +490,10 @@ h1 {
    color: var(--cor3);
 }
 
+.imagem-pequena {
+   display: none;
+}
+
 
 /* Estilo da seção "experiencia" */
 
