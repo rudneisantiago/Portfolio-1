@@ -194,6 +194,10 @@
         text-align: end;
     }
 
+    #btn-menu{
+        display: block;
+     }
+
     .nav-buguer {
      display: block;
      list-style: none;
