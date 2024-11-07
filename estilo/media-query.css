@@ -391,6 +391,10 @@
         padding-top: 68px;
     }
 
+    .habilidade-content{
+        margin: 0 24px 0 24px;
+    }
+
    .experiencia-content{
     margin: 0 24px 0 24px;
    }
@@ -441,7 +445,7 @@
 
     .habilidades02{
         flex-direction: row;
-        max-width: 70%;
+        max-width: 60%;
         justify-content: center;
     }
 }
