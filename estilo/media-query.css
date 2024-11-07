@@ -164,6 +164,10 @@
 
 @media screen and (max-width: 892px) {
 
+    .botaoprincipal{
+        width: 70%;
+    }
+
     .navbar {
         align-items: flex-start;
         padding-top: 24px;
