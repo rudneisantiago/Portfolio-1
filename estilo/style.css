@@ -171,6 +171,14 @@ header {
    font-family: var(--fonte-padrao);
 }
 
+.meuh1{
+   display: flex;
+   flex-direction: column;
+   max-width: 1200px;
+   flex-wrap: nowrap;
+   margin: auto;
+}
+
 h1 {
    font-size: 54px;
    font-weight: bold;
@@ -354,7 +362,7 @@ h1 {
 
 .projeto-card {
    background-color: #222;
-   border-radius: 15px;
+   border-radius: 30px;
    overflow: hidden;
    width: 377px;
    text-align: left;
@@ -503,6 +511,16 @@ h1 {
    display: none;
 }
 
+.imagem-media {
+   display: none;
+}
+
+.imagem700 {
+   display: none;
+}
+ .imagem360 {
+   display: none;
+ }
 
 /* Estilo da seção "experiencia" */
 

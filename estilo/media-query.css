@@ -231,4 +231,164 @@
     color: var(--cor3);
 }
 
+.text > h2 {
+    text-align: center;
 }
+
+.imagem-pequena{
+    display: none;
+}
+
+.imagem-media {
+    display: block;
+
+}
+
+}
+
+@media screen and (max-width: 756px) {
+    h1 {
+        font-size: 34px;
+    }
+    
+    .projeto-card {
+        width: 100%;
+    }
+
+    .projetos-container {
+        gap: 30px;
+    }
+
+    .medprev-grande{
+        display: none;
+    }
+
+    .medprev-pequena{
+        display: block;
+    }
+    
+    .econodata-grande{
+        display: none;
+    }
+
+    .econodata-pequena{
+        display: block;
+    }
+
+    .alfakids-grande {
+        display: none;
+    }
+
+    .alfakids-pequena{
+        display: block;
+    }
+}
+
+@media screen and (max-width: 726px) {
+
+    .heuristica-borda{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    
+    .imagem-media{
+        display: none;
+    }
+
+    .imagem700{
+        display: block;
+    }
+
+    .responsivo-borda{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 606px) {
+    
+    .trello {
+        display: none;
+    }
+
+    .gpt {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 597px) {
+    h1 {
+        font-size: 32px;
+    }
+
+    .greeting{
+        font-size: 20px;
+    }
+
+    .text > h2 {
+        font-size: 30px;
+    }
+
+    .text-projeto > h2 {
+        font-size: 30px;
+    }
+
+    .sobre-direito > h2 {
+        font-size: 30px;
+    }
+
+    .experiencia-content > h2 {
+        font-size: 30px;
+    }
+
+    .hero-left > h2 {
+        font-size: 32px;
+    }
+
+    .cta {
+        width: 75%;
+    }
+
+    .availability-button > span {
+        font-size: 18px;
+    }
+
+}
+
+@media screen and (max-width: 559px) {
+
+    .habilidades {
+        height: 100%;
+    }
+
+    .habilidade-content {
+        padding-top: 48px;
+        padding-bottom: 48px;
+    }
+
+    .habilidades01 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .habilidades02 {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px 0 0 0;
+    }
+
+}
+
+
+@media screen and (max-width: 499px) {
+
+    .imagem700{
+        display: none;
+    }
+
+    .imagem360 {
+        display: block;
+    }
+}
+
