@@ -385,7 +385,7 @@
 }
 
 
-@media screen and (max-width: 499px) {
+@media screen and (max-width: 500px) {
 
     .experiencia{
         padding-top: 68px;
@@ -437,6 +437,12 @@
 
     .perfil-imagem{
         padding-top: 32px;
+    }
+
+    .habilidades02{
+        flex-direction: row;
+        max-width: 70%;
+        justify-content: center;
     }
 }
 
