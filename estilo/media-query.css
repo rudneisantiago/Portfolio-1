@@ -387,12 +387,56 @@
 
 @media screen and (max-width: 499px) {
 
+    .experiencia{
+        padding-top: 68px;
+    }
+
+   .experiencia-content{
+    margin: 0 24px 0 24px;
+   }
+
+   .sobre-content{
+    margin: 0 24px 0 24px;
+   }
+
     .imagem700{
         display: none;
     }
 
     .imagem360 {
         display: block;
+    }
+
+    .text-projeto{
+        margin: 0;
+    }
+
+    .text-projeto > h2 {
+        text-align: center;
+    }
+
+    .projetos-container {
+        width: 88%;
+        margin: 0;
+    }
+
+    .projetos-recentes{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .btn-vertodos{
+        width: 80%;
+    }
+
+    .ferramentas{
+        max-width: none;
+        padding-bottom: 28px;
+    }
+
+    .perfil-imagem{
+        padding-top: 32px;
     }
 }
 
