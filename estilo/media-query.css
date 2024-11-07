@@ -68,6 +68,50 @@
 
 }
 
+@media screen and (max-width: 1280px) {
+
+    .medprev-media{
+        display: block;
+    }
+
+    .medprev-grande{
+        display: none;
+    }
+
+    .econodata-media{
+        display: block;
+    }
+
+    .econodata-grande{
+        display: none;
+    }
+
+    .alfakids-media {
+        display: block;
+    }
+
+    .alfakids-grande{
+        display: none;
+    }
+
+    #projeto1{
+        width: 100%;
+    }
+
+    #projeto2{
+        width: 48%;
+    }
+
+    #projeto3{
+        width: 48%;
+    }
+
+    .projetos-container{
+        gap: 32px;
+    }
+
+}
+
 @media screen and (max-width: 1255px) {
     .cta {
        max-width: 85%;
@@ -128,9 +172,17 @@
 
 }
 
-@media screen and (max-width: 915px) {
+@media screen and (max-width: 916px) {
     h1 {
         font-size: 44px;
+    }
+
+    #projeto2{
+        width: 100%;
+    }
+
+    #projeto3{
+        width: 100%;
     }
 }
 
@@ -263,6 +315,10 @@
         gap: 30px;
     }
 
+    .medprev-media{
+        display: none;
+    }
+
     .medprev-grande{
         display: none;
     }
@@ -275,11 +331,19 @@
         display: none;
     }
 
+    .econodata-media{
+        display: none;
+    }
+
     .econodata-pequena{
         display: block;
     }
 
     .alfakids-grande {
+        display: none;
+    }
+
+    .alfakids-media{
         display: none;
     }
 

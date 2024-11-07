@@ -369,6 +369,30 @@ h1 {
    position: relative;
 }
 
+.medprev-pequena{
+   display: none;
+}
+
+.econodata-pequena{
+   display: none;
+}
+
+.alfakids-pequena{
+   display: none;
+}
+
+.medprev-media{
+   display: none;
+}
+
+.econodata-media{
+   display: none;
+}
+
+.alfakids-media {
+   display: none;
+}
+
 .projeto-card img {
    width: 100%;
    
